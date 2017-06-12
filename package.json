@@ -1,0 +1,39 @@
+{
+  "name": "gulpfile",
+  "version": "1.0.0",
+  "description": "test-one",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^6.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "babel-preset-es2015":"^6.24.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-file-include": "^1.1.0",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.8.8",
+    "gulp-jsdoc3": "^1.0.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stream": "^0.0.2",
+    "gulp-typescritp": "^3.1.7",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}

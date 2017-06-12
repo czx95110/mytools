@@ -1,0 +1,7 @@
+.a{
+    display: flex;
+    animation: c 3s linear infinite;
+}
+.b{
+    transform: translate(3px);
+}

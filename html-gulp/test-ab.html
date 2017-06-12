@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+@@include('./a.html')
+@@include('./b.html',{
+  "name":"zhangsan",
+  "age":45,
+  "books":{
+    "book1":"js",
+    "book2":"css"
+    }
+})
+<hr/>
+<h1>file-include for</h1>
+<ul>
+  @@for (var i=0;i < arr.length;i++){
+    <li>`+arr[i]+`</li>
+  }
+</ul>
+<hr/>
+<h1>file-include if</h1>
+
+@@if(name === 'test' ){
+  @@include('c.html')
+}
+
+@@include('d.html')
+@@if(name === 'test8' ){
+  @@include('c.html')
+}
+<hr/>
+<h1>file-include loop</h1>
+@@loop('e.html',[
+  {"title":"title1","text":"<p>from title1</p>"},
+  {"title":"title2","text":"<p>from title2</p>"},
+  {"title":"title3","text":"<p>from title3</p>"}
+])
+
+<hr/>
+<h1>file-include loop data.json</h1>
+@@loop('f.html','data.json')
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
